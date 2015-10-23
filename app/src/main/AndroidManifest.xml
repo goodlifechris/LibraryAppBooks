@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.librarymangementapp.libraryapp" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <provider
+        android:name="android.support.v4.content.FileProvider"
+        android:authorities="com.mydomain.fileprovider"
+        android:exported="false"
+        android:grantUriPermissions="true" >
+        ...
+    </provider>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login"
+            android:theme="@style/LoginTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AdminManageBooks"
+            android:label="@string/title_activity_admin_manage_books" >
+        </activity>
+        <activity
+            android:name=".UserManageBooks"
+            android:label="@string/title_activity_user_manage_books" >
+        </activity>
+        <activity
+            android:name=".UserManageBooksAvailable"
+            android:label="@string/title_activity_user_manage_books_available" >
+        </activity>
+        <activity
+            android:name=".UserManageBooksBorrowed"
+            android:label="@string/title_activity_use_manage_books_borrowed" >
+        </activity>
+        <activity
+            android:name=".BooksEdit"
+            android:label="@string/title_activity_books_edit"
+            android:parentActivityName=".AdminManageBooks"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.librarymangementapp.libraryapp.AdminManageBooks" />
+        </activity>
+    </application>
+
+</manifest>

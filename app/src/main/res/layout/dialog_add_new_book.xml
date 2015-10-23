@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="24dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Add a new book"
+            android:layout_gravity="left"
+            android:textSize="24sp"
+            android:textColor="@color/color_accent_secondary"
+            android:layout_alignParentLeft="true"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_separator"
+            android:layout_marginTop="@dimen/layout_separator_margin"
+            android:layout_marginBottom="@dimen/layout_separator_large_margin"
+            />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:layout_weight="1">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/book_title_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Book title" />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+        <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        >
+    <EditText
+        android:id="@+id/book_author_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Book Author" />
+        </android.support.design.widget.TextInputLayout>
+        <Button
+        android:id="@+id/book_datebought_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+        android:text="select date bought"
+            android:background="@color/color_accent_secondary"
+            android:textColor="@color/color_white"/>
+
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" >
+        <EditText
+        android:id="@+id/book_condition_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Book Condition" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            ></android.support.design.widget.TextInputLayout>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:id="@+id/book_camera_image_view"
+            android:src="@drawable/ic_camera_alt_blue_900_48dp"
+            android:background="@color/color_primary"/>
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

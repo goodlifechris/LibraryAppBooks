@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Library App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Library</string>
+    <string name="title_activity_manage_books">Manage Books</string>
+    <string name="title_activity_available_books">Available Books</string>
+    <string name="title_activity_borrowed_books">Borrowed Books</string>
+    <string name="title_activity_admin_manage_books">Admin Manage Books</string>
+    <string name="title_activity_user_manage_books">User Manage Books</string>
+    <string name="title_activity_user_manage_books_available">User Manage Books Available</string>
+    <string name="title_activity_use_manage_books_borrowed">User Manage Books Borrowed</string>
+    <string name="userWelcome">welcome user</string>
+
+
+    <string-array name="string_array_users">
+        <item>Select User</item>
+        <item>Admin</item>
+        <item>User</item>
+    </string-array>
+    <string name="title_activity_books_edit">BooksEdit</string>
+</resources>

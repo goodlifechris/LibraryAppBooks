@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#7fbf36</color>
+    <color name="color_primary_dark">#66992c</color>
+    <color name="color_accent">#182a41</color>
+    <color name="color_toolbar_dark">#1F1F1F</color>
+    <color name="color_navigation_background">#000</color>
+    <color name="color_navigation_list_background">#2A2A2A</color>
+    <color name="color_navigation_list_item">#A3A3A3</color>
+    <color name="color_background_layout">#F1F1F1</color>
+    <color name="color_card_background">#FFFFFF</color>
+    <color name="color_title_primary">#A2FC6E</color>
+    <color name="color_primary_secondary">#6CB24F</color>
+    <color name="color_title_secondary">#848686</color>
+    <color name="color_title_card">#828584</color>
+    <color name="color_amount_bold">#595B5C</color>
+    <color name="color_text_tertiary">#919191</color>
+    <color name="color_button_secondary">#189E7B</color>
+    <color name="color_text_button_primary">#FFFFFF</color>
+    <color name="color_separator">#DCDCDC</color>
+    <color name="color_text_primary">#848686</color>
+    <color name="color_accent_secondary">#0272C6</color>
+    <color name="color_accent_btn_secondary">#2ABC97</color>
+    <color name="color_white">#fff</color>
+    <color name="primary">#2d2d2d</color>
+    <color name="secondary">#FF4081</color>
+    <color name="accent">#33b5e5</color>
+    <color name="divider">#CCC</color>
+    <color name="icons">#FFF</color>
+    <color name="item_background">#FFF</color>
+</resources>
